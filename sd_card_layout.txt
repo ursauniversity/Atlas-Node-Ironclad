@@ -1,0 +1,12 @@
+/sdcard
+  /dataset
+    index.json            # índice dos commits
+    point_<commitid>.json # ponto de telemetria por commit
+    meta/                 # meta e versões
+      tag_<ts>.json
+  /logs
+    log_<date>.txt
+  /config
+    node.conf             # config do node (node_id, wifi, thresholds)
+  /firmware
+    ota/                  # arquivos para OTA update
